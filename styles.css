@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* top container */
+.btn {
+  background: none;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(247, 251, 252);
+  /* flex-wrap: wrap; */
+}
+
+.child {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.nav {
+  height: 100%;
+}
+
+.ul {
+  height: 100%;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+li a {
+  display: inline-block;
+  margin: 10px;
+  color: #000;
+  text-decoration: none;
+  height: 100%;
+  text-transform:uppercase;
+  }
+
+li:hover {
+  background-color: rgb(202, 198, 198);
+  height: 100%;
+  transition: .5s;
+ }
+
+ .toggle-button{
+  color: #000;
+  display: none;
+  /* flex-direction: column; */
+  justify-content: space-between;
+ }
+
+.air{
+  background: none;
+  border: none;
+  margin-left: 10px;
+}
+
+.btnn{
+  width: 20px;
+  height: 20px;
+}
+
+.btnn:hover{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.btnnn{
+  width: 30px;
+ height: 30px;
+ margin-left: 30px;
+}
+
+/* middle container */
+.hero-image {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+     rgba(0, 0, 0, 0.5)),
+    url(Beach\ HD\ Wallpaper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image .hero-text {
+  color: #fff;
+  text-align: center;
+}
+
+.hero-image .hero-text h1 {
+  font-size: 50px;
+  font-weight: 500;
+ margin-bottom: 20px;
+}
+
+.hero-image .hero-text p {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.span{
+  color: rgb(0, 174, 255);
+}
+
+.hero-image .hero-btn {
+    color: #fff;
+  background: rgb(29, 159, 245);
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  }
+
+  .hero-image .hero-btn:hover {
+  background: rgb(6, 109, 179);
+  color: #000;
+  cursor: pointer;
+}
+
+/* bottom container */
+.bottom{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  height: 400px;
+  width: 100%;
+   
+}
+
+.my-story{
+  margin-left: 100px;
+}
+
+.my-story h2{
+  color: rgb(10, 245, 245);
+  margin-bottom: 30px;  
+ }
+
+ .my-story p{
+  width: 400px;
+  line-height: 30px;
+  font-size:20px ;
+ }
+
+ .my-story button{
+  background: rgb(6, 248, 248);
+  padding: 10px;
+   border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+ }
+
+ .my-story button:hover{
+  background-color: rgb(6, 109, 179);
+  color: #fff;
+  cursor: pointer;
+ }
+
+ .icon{
+  margin-right: 5px;
+ }
+
+ img{
+  height: 80%;
+  width: 100;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 10px 0px black;
+
+ }
+
+.personal-info{
+  margin-right: 200px;
+}
+
+.personal-info h2{
+  color: rgb(10, 245, 245);
+  margin-bottom: 30px;
+}
+
+td{
+  line-height: 40px;
+}
+
+.logo{
+  width: 30px;
+  height: 40px;
+  margin: 10px;
+  color: rgb(21, 122, 122);
+  margin-top: 30px;
+}
+
+
+@media(max-width: 600px) {
+  .toggle-button {
+    display: flex;
+  }
+
+  .nav{
+    display: none;
+  }
+/* 
+  .nav{
+    display:column;
+    }
+
+  .ul{
+    flex-direction: column;
+  } */
+
+}
