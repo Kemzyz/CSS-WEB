@@ -18,7 +18,7 @@ body {
   border: none;
   font-size: 20px;
   cursor: pointer;
-  
+    
 }
 
 .container {
@@ -236,6 +236,12 @@ td{
 
 
 @media(max-width: 800px) {
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
   .toggle-button {
     display: flex;
   }
